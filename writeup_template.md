@@ -175,15 +175,24 @@ The image show the origin image, the resized image for input and the softmax out
 Here are the results of the prediction:
 
 | Image			        |     Prediction	    | Softmax 				| 
-|:---------------------:|:---------------------------------------------:| 
+|:---------------------:|:---------------------------------------------:|
+
 | 50 km/hr      		| 50 km/hr              |   (0.95)	            | 
+
 | 12 t     			    | 120 km/hr             |   (0.92)  			|
+
 | 40 km/hr				| 50 km/hr	            |   (0.20)      		|
+
 | 30 km/hr	      		| 60 km/hr	            |   (0.89)				|
+
 | Pedestrian			| Turn Left Ahead       |   (1.00)   			|
+
 | 14 t			        | Slippery Road         |   (0.38)  			|
+
 | Pedestrian			| General Caution       |   (0.99)              |
+
 | 50 km/hr   			| 50 km/hr              |   (1.00)              |
+
 | 60 km/hr			    | Bycycle Crossing      |   (0.37)         		|
 
 The model was able to correctly guess 4 of the 10 traffic signs, which gives an accuracy of 20%. This compares unfavorably to the accuracy on the test set of 96%. 
