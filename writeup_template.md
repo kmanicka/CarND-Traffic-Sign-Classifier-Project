@@ -36,20 +36,21 @@ Fudther details about this project can be found at [GitHub Project](https://gith
 
 Following are few basic stats about the data set
 
-===============================================
+
 Shape of X_train = (34799, 32, 32, 3)
 Shape of X_test = (12630, 32, 32, 3)
 Shape of X_valid = (4410, 32, 32, 3)
 Shape of Y_train = (34799,)
 Shape of Y_test = (12630,)
 Shape of Y_valid = (4410,)
-===============================================
+
 Number of training examples = 34799
 Number of validation examples = 4410
 Number of testing examples = 12630
 Image data shape = (32, 32, 3)
 Number of classes = 43
-===============================================
+
+
 ---
 #### 2. Include an exploratory visualization of the dataset.
 
