@@ -141,6 +141,10 @@ As advised in the material, I started off with a LeNet Architecture as base. Use
 #### Iteration 2) Test Accuracy 90%
 This was a good start. As LeNet was using gray scale the inital Conv2D layers with 6 filters were sufficiant. But as we are dealing with color images I tried increasing the number of filters in layer 1 and layer 2  to 32 and 64. This increased the number of trainable parameter output from Layer 2 to 1600. So correspondingly increased the parameters in layer 3 and 4 Dense layers to 800 and 128. Intrestingly this arhitecture gave a very good Train Accuracy of 99% in 10epocs, the Validation and Test Accuracy were arround 90%. 
 
+The inspration for above iteration came from model used by keras-team for classifing MINST data. 
+https://github.com/keras-team/keras/blob/master/examples/mnist_cnn.py
+
+
 #### Iteration 3) Test Accuracy -%
 There was clearly a variance problem so added few Dropout layers with 0.5 parameter to regularize the model. But the 0.5 model was very high and the model did not converge well. 
 
