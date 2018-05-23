@@ -195,7 +195,7 @@ Here are the results of the prediction:
 
 | 60 km/hr			    | Bycycle Crossing      |   (0.37)         		|
 
-The model was able to correctly guess 4 of the 10 traffic signs, which gives an accuracy of 20%. This compares unfavorably to the accuracy on the test set of 96%. 
+The model was able to correctly guess 2 of the 10 traffic signs, which gives an accuracy of 20%. This compares unfavorably to the accuracy on the test set of 96%. 
 
 I have not tried to manuplate the results and presented the truth as is.  I believe that the key reason of this discrepency is due to the difference in the distribution of the internet images and the data set that we used for training. It is likely that some of the internet images are wrongly labeled or not part of the germen signes at all. 
 
